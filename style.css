@@ -82,22 +82,22 @@ section {
 
 /* Typing animation*/
 .typing {
-      font-size: 24px;
-      font-weight: 700;
-      border-right: 3px solid #fff;
-      white-space: nowrap;
-      overflow: hidden;
-      display: inline-block;
-      padding-right: 5px;
-      animation: blink 0.7s infinite;
-      color: #33ff00;
-    }
+    font-size: 24px;
+    font-weight: 700;
+    border-right: 3px solid #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    padding-right: 5px;
+    animation: blink 0.7s infinite;
+    color: #33ff00;
+}
 
-    @keyframes blink {
-      0% { border-color: transparent; }
-      50% { border-color: #fff; }
-      100% { border-color: transparent; }
-    }
+@keyframes blink {
+    0% { border-color: transparent; }
+    50% { border-color: #fff; }
+    100% { border-color: transparent; }
+}
 /*Animation done here*/
 .intro2 {
     color: black;
