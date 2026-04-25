@@ -141,6 +141,9 @@ section {
   transform: scale(0.95);
 }
 /*Button Animation ends here*/
+.buttons a {
+    text-decoration:none;
+}
 .image {
     width: 25rem;
     height: 25rem;
